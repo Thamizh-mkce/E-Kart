@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-commerce Product Page</title>
+</head>
+<body>
+    <div class="product-page">
+        <div class="product-image">
+            <img id="main-image" src="product1.jpg" alt="Product Image">
+            <div class="thumbnails">
+                <img src="product1.jpg" alt="Thumbnail 1" onclick="changeImage('product1.jpg')">
+                <img src="product2.jpg" alt="Thumbnail 2" onclick="changeImage('product2.jpg')">
+                <img src="product3.jpg" alt="Thumbnail 3" onclick="changeImage('product3.jpg')">
+            </div>
+        </div>
+        <div class="product-details">
+            <h1 id="product-title">Product Name</h1>
+            <p id="product-price">$29.99</p>
+            <p id="product-description">
+                This is a detailed description of the product. It highlights the features and benefits of the item.
+            </p>
+            <button id="add-to-cart-button">Add to Cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
